@@ -1,0 +1,127 @@
+/*This file contains all the styles used in forms and managing books (a.k.a the right side of application) */
+
+
+/* Change button width to avoid overflow and change flex direction to column for a better mobile experience*/
+@media only screen and (max-width: 390px) {
+.primaryButtons{
+    flex-direction: column;
+    align-items: center;
+}
+
+.primaryButtons Button{
+    height: 50px;
+    width: 100% !important;
+    margin: 10px;
+}
+}
+
+
+label{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.form-control, textarea{
+    background: #646192;
+    border-radius: 10px;
+    border:none;
+}
+
+.form-control:focus, textarea:focus{
+    background: #646192;
+    color: #D2D2D2;
+}
+
+.form-control::placeholder{
+    color: #D2D2D2;
+}
+
+.bookForm{
+    margin-bottom: 100px;
+}
+
+input.input-error,
+textarea.input-error{
+    border: 2px solid #F5257C;
+}
+
+.error{
+    color: #F5257C;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+
+.error:first-letter{
+    text-transform: capitalize;
+}
+
+/* Edit Bootstrap primary variant button */
+.btn-primary{
+    background: #97E9CA;
+    padding: 10px 15px;
+    color: #262543;
+    border: none;
+    font-size: 16px;
+}
+
+.btn-primary:hover{
+    background: #68a18b;
+    color: #131229;
+}
+
+.btn-primary:focus{
+    background: #68a18b;
+    color: #131229;
+}
+
+.btn-primary:disabled{
+    background: #97E9CA;
+    padding: 10px 15px;
+    color: #262543;
+    border: none;
+    font-size: 16px;
+}
+
+
+/* Edit Bootstrap warning variant button */
+.btn-warning{
+    background: #F5257C;
+    padding: 10px 15px;
+    color: #FFFF;
+    border: none;
+    font-size: 16px;
+    height: 50px;
+    width: 62%;
+}
+
+.btn-warning:hover{
+    background: #b21e5c;
+    color: #FFFF;
+}
+
+.btn-warning:focus{
+    background: #b21e5c;
+    color: #FFFF;
+}
+
+/* PrimaryButtons contains all of the buttons. For the Clear -button, specify with id clear */
+.primaryButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.primaryButtons Button{
+    height: 50px;
+    width: 110px;
+    margin: 10px;
+}
+
+.primaryButtons #clear{
+    height: 50px;
+    width: 370px;
+}
+
+.successMessage{
+    text-align: center;
+    color: #97E9CA;
+}
