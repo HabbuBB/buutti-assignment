@@ -38,11 +38,11 @@ All you need to do is git clone the app, navigate to the app folder and run comm
 
 ## Original Figma design
 
-![App Screenshot](demo-pics\figma.png)
+![App Screenshot](https://github.com/HabbuBB/buutti-assignment/blob/master/demo-pics/figma.png)
 
 ## Final result
 
-![App Screenshot](demo-pics\Capture.PNG)
+![App Screenshot](https://github.com/HabbuBB/buutti-assignment/blob/master/demo-pics/Capture.PNG)
 
 
 
