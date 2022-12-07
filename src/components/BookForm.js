@@ -199,7 +199,7 @@ export default function BookForm({selectedBook, updateSelectedBook}) {
         </Form.Group>
 
         <div className="primaryButtons">
-            <Button variant="warning" data-testid="clearBtn" onClick={clearForm}>
+            <Button variant="warning" data-testid="clearBtn" id="clear" onClick={clearForm}>
                     Clear
             </Button>
         </div>
