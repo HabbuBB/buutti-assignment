@@ -42,7 +42,7 @@ All you need to do is git clone the app, navigate to the app folder and run comm
 
 ## Final result
 
-![App Screenshot](https://github.com/HabbuBB/buutti-assignment/blob/master/demo-pics/Capture.PNG)
+![App Screenshot](https://github.com/HabbuBB/buutti-assignment/blob/master/demo-pics/final.png)
 
 
 
